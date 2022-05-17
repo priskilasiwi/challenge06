@@ -19,13 +19,6 @@ const Register = () => {
         if(data) navigate("/home");
     };
 
-    const handleLoginEmail = () => {
-        dispatch(LoginAdmin(email,password));
-        setTimeout(() => {
-            navigate("/dashboard");
-        }, 1500);
-    };
-
     const handleRegistUser = () => {
         dispatch(RegistUser(email,password))
         setTimeout(() => {
@@ -44,7 +37,7 @@ const Register = () => {
          <div className="rtl-form">
             <form method = "POST">
                 <div className = "box-2">
-                    <img className = "img1" src="image/Rectangle-62.svg" />
+                    <img className = "img1" alt="logo" src="image/Rectangle-62.svg" />
                     <h1 className="heading">Create New Account</h1>
                     <div className = "mb-3">
                     <label for="exampleInputEmail1" className="form-label">Email address</label>
