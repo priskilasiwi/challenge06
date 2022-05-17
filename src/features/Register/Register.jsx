@@ -12,8 +12,6 @@ const Register = () => {
     const [ email, setEmail] = useState('');
     const [ password, setPassword ] = useState('');
 
-    const dataUsers = dataLogin?.user;
-
     const handleLoginGoogle = async () => {
         const data = await dispatch(LoginGoogle());
         if(data) navigate("/home");
@@ -29,7 +27,7 @@ const Register = () => {
 
     useEffect(() => {
         if(dataLogin?.email === "admin@admin.com") navigate("/dashboard");
-    }, []);
+    });
 
     return (
         <>

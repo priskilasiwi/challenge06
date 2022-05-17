@@ -12,19 +12,20 @@ const Dashboard = () => {
     useEffect(() => {
         if (dataLogin?.email !== 'admin@admin.com') navigate("/");
     }, []);
+
     return (
         <>
             <div className="container">
                 <div className="sidebar" tabindex="-1">
                     <img alt="logo" src="image/Rectangle 63.svg" />
-                    <a className='img-sidebar' style={{ marginTop: '30px' }}>
-                        <img width='24px' height='24px' src="image/fi_home.svg" />
+                    <div className='img-sidebar' style={{ marginTop: '30px' }}>
+                        <img alt="home" width='24px' height='24px' src="image/fi_home.svg" />
                         <h4>Dashboard</h4>
-                    </a>
-                    <a className='img-sidebar'>
+                    </div>
+                    <div className='img-sidebar'>
                         <img width='24px' height='24px' alt="cars" src="image/fi_truck.svg" />
                         <h4>Cars</h4>
-                    </a>
+                    </div>
                 </div>
                 <div className='right-side'>
                     <div className="navbar">

@@ -16,12 +16,12 @@ const Home = () => {
 
     useEffect(() => {
         CheckLogin();
-    }, []);
+    });
     return(
         <>
         <div className="navbar">
             <div className="navbar-left">
-                <img width='100px' height='34px' src='image/logo.svg' />
+                <img alt="logo" width='100px' height='34px' src='image/logo.svg' />
             </div>
             <div className="navbar-right">
                 <p>Our Services</p>
