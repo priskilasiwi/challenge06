@@ -1,13 +1,7 @@
-import { useSelector } from 'react-redux';
-import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import '../Style/dashboard.css';
 
 
 const Dashboard = () => {
-    const navigate = useNavigate();
-    const { dataLogin } = useSelector((state) => state.auth);
-
     return (
         <>
             <div className="container">
