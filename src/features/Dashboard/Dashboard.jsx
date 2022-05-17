@@ -11,7 +11,7 @@ const Dashboard = () => {
 
     useEffect(() => {
         if (dataLogin?.email !== 'admin@admin.com') navigate("/");
-    }, []);
+    },[]);
 
     return (
         <>

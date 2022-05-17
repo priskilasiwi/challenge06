@@ -1,5 +1,5 @@
 import "../Style/register.css";
-import { LoginGoogle, LoginAdmin, RegistUser } from "../../config/redux/actions/authAction";
+import { LoginGoogle, RegistUser } from "../../config/redux/actions/authAction";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react';
