@@ -47,7 +47,7 @@ const Register = () => {
                     <input type="password" placeholder = "Enter your password" className="rtl-form-input" id="exampleInputPassword1" value={password} onChange={(e) => setPassword(e.target.value)} />
                     </div>
                     <div className = "row mt-4 ">
-                    <p>Already Have an Account?<a href='/'>Sign Up</a></p>
+                    <p>Already Have an Account?<a href={'/'}>Sign Up</a></p>
                     <button type="button" className="btn-login" onClick={() => handleRegistUser()}>Register</button>
                     </div>
                     <div className = "row mt-4 ">
