@@ -1,7 +1,17 @@
 import '../Style/dashboard.css';
+import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Dashboard = () => {
+    const navigate = useNavigate();
+    const { dataLogin } = useSelector((state) => state.auth);
+
+    useEffect(() => {
+        if (dataLogin?.email !== 'admin@admin.com') navigate("/");
+    }, []);
     return (
         <>
             <div className="container">
