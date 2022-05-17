@@ -1,0 +1,105 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F3FF;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100vw;
+}
+
+.navbar-left{
+    padding-top: 25px;
+    padding-left: 136px;
+}
+
+.navbar-right{
+    display: flex;
+    padding-right: 120px;
+    padding-top: 32px;
+    align-items: baseline;
+}
+
+.navbar-right p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 32px;
+}
+.box{
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    background: #F1F3FF;
+}
+
+.btn-register{
+    width: 81px;
+    height: 36px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border-color: #5CB85F;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    gap: 10px;
+}
+.box-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 136px;
+    padding-top: 150px;
+}
+
+.box-left h1{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+
+}
+
+.box-left p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 600px;
+    height: 60px;
+}
+
+.btn-mulai{
+    width: 140px;
+    height: 36px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border-color: #5CB85F;
+    color:#FFFFFF;
+}
+
+.box-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 98px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.footer-left{
+    padding-left: 136px;
+}
+
+.footer-left p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
