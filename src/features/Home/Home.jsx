@@ -55,11 +55,11 @@ const Home = () => {
             </div>
             <div className='footer-left'>
                 <p>Connect With Us</p>
-                <img src='image/icon_facebook.svg' />
-                <img src='image/icon_instagram.svg' />
-                <img src='image/icon_twitter.svg' />
-                <img src='image/icon_mail.svg' />
-                <img src='image/icon_twitch.svg' />
+                <img alt="facebook" src='image/icon_facebook.svg' />
+                <img alt="instagram"src='image/icon_instagram.svg' />
+                <img alt="twitter" src='image/icon_twitter.svg' />
+                <img alt="mail" src='image/icon_mail.svg' />
+                <img alt="twitch" src='image/icon_twitch.svg' />
             </div>
             <div className='footer-left'>
                 <p>Copyright Binar 2022</p>
