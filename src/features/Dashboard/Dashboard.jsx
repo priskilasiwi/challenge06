@@ -16,28 +16,28 @@ const Dashboard = () => {
         <>
             <div className="container">
                 <div className="sidebar" tabindex="-1">
-                    <img src="image/Rectangle 63.svg" />
+                    <img alt="logo" src="image/Rectangle 63.svg" />
                     <a className='img-sidebar' style={{ marginTop: '30px' }}>
                         <img width='24px' height='24px' src="image/fi_home.svg" />
                         <h4>Dashboard</h4>
                     </a>
                     <a className='img-sidebar'>
-                        <img width='24px' height='24px' src="image/fi_truck.svg" />
+                        <img width='24px' height='24px' alt="cars" src="image/fi_truck.svg" />
                         <h4>Cars</h4>
                     </a>
                 </div>
                 <div className='right-side'>
                     <div className="navbar">
                         <div className="navbar-left" style={{ flexGrow: "1"}}>
-                            <img height= '34px' left= '24px' src="image/Rectangle-62.svg" />
+                            <img height= '34px' left= '24px' alt="logo" src="image/Rectangle-62.svg" />
                         </div>
                         <div className="hamburger" style={{ flexGrow: "1"}}>
-                            <img src="image/fi_menu.svg" /> 
+                            <img src="image/fi_menu.svg" alt='menu' /> 
                         </div>
                         <div className="search" style={{ flexGrow: "8"}}>
                             <input className="input-search" placeholder="Search" />
                             <button className="btn-search"><b>Search</b></button>
-                            <img width='143px' height='38px' src="image/Frame 33.png" />
+                            <img width='143px' height='38px' alt="user" src="image/Frame 33.png" />
                         </div>
                         
                              

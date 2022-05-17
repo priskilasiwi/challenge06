@@ -37,7 +37,7 @@ const Login = () => {
          <div className="rtl-form">
             <form method = "POST">
                 <div className = "box-2">
-                    <img className = "img1" src="image/Rectangle-62.svg" />
+                    <img alt="logo" className = "img1" src="image/Rectangle-62.svg" />
                     <h1 className="heading"> Welcome, Admin BCR</h1>
                     <div className = "mb-3">
                     <label for="exampleInputEmail1" className="form-label">Email address</label>

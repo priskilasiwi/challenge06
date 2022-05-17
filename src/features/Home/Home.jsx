@@ -1,8 +1,7 @@
 import { useSelector } from "react-redux";
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import "../Style/home.css"
-import { Container, Button } from "react-bootstrap";
+import "../Style/home.css";
 
 const Home = () => {
     const data = useSelector((globalStore) => globalStore);
@@ -39,7 +38,7 @@ const Home = () => {
                 <button className="btn-mulai">Mulai Sewa Mobil</button>
             </div>
             <div className="box-right">
-             <img className= "img-1" src="./image/img_car.png" />
+             <img alt="car" className= "img-1" src="./image/img_car.png" />
             </div>
         </div>
         <div className="footer">
@@ -64,7 +63,7 @@ const Home = () => {
             </div>
             <div className='footer-left'>
                 <p>Copyright Binar 2022</p>
-                <img src='image/logo.svg' />
+                <img alt="logo" src='image/logo.svg' />
             </div>
         </div>
 
