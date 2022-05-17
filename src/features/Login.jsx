@@ -27,7 +27,8 @@ const Login = () => {
     useEffect(() => {
         if(dataLogin?.email === "admin@admin.com") navigate("/dashboard");
         if(dataLogin?.email !== null&& dataLogin !== "admin@admin.com") navigate ("/home");
-    });
+    //eslint-disable-next-line
+    },[]);
 
     return (
         <>

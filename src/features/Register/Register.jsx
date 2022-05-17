@@ -27,7 +27,8 @@ const Register = () => {
 
     useEffect(() => {
         if(dataLogin?.email === "admin@admin.com") navigate("/dashboard");
-    });
+    //eslint-disable-next-line
+    },[]);
 
     return (
         <>

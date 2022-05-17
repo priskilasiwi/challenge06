@@ -16,7 +16,8 @@ const Home = () => {
 
     useEffect(() => {
         CheckLogin();
-    });
+    //eslint-disable-next-line
+    },[]);
     return(
         <>
         <div className="navbar">
